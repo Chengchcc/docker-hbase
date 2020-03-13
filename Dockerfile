@@ -49,6 +49,7 @@ ENV PATH $JAVA_HOME/bin:$HBASE_HOME/bin:$PATH
 
 EXPOSE 2181
 EXPOSE 9092
+EXPOSE 16201
 
 CMD ./start-pseudo-distributed.sh
 
