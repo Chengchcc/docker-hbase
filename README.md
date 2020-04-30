@@ -1,5 +1,5 @@
 ## docker-hbase+phoenix+kafka
-
+> you shoud add "172.17.2.1 hbase" in /etc/hosts
 ### Build
 ```bash
 $ docker build  . -t docker-dev:v1
